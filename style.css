@@ -44,4 +44,39 @@ button {
     border-width: 0;
     background-color: inherit;
 }
-
+/*right icons block*/
+.ricons {
+	position: absolute;
+    right: 20px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+}
+.ricons ul {
+	padding: 0;
+	margin: 0;
+}
+.ricons li {
+	display: inline-block;
+	padding: 10px;
+}
+img#si {
+	height: 17px;
+    width: 17px;
+    padding: 1px;
+    position: relative;
+    top: 4px;
+}
+img#bell {
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background-color: #757575;
+    padding: 3px;
+    position: relative;
+    top: 6px;
+}
+img#last {
+	position: relative;
+    top: 8px;
+    border-radius: 20px;	
