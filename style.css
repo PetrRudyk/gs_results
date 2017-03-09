@@ -3,6 +3,11 @@ body {
 	padding: 0;
 	font-family: Arial, sans-serif;
 }
+.header {
+	height: 122px;
+    border-bottom: 1px solid #dddddd;
+	background-color: #fafafa;
+}
 /*GOOGLE LOGO AT THE BOTTOM*/
 
 .imgform #img img {
@@ -78,7 +83,7 @@ button {
 .lnav {
 	float: left;
     position: relative;
-    top: 65px;
+    top: 60px;
     margin: 0;
     padding: 0;
     margin-left: -8px;
@@ -86,7 +91,7 @@ button {
 .rnav {
 	float: right;
     position: relative;
-    top: 65px;
+    top: 60px;
     margin-right: 25px;
 }
 .lnav li, .rnav li {
@@ -102,7 +107,18 @@ button {
 .lnav #active a {
 	color: #4285f4;
 }
+#special a {
+	padding: 0px 16px;
 
+}
+#special a:hover {
+	color: black;
+    border: 1px solid #bdbdbd;
+    padding: 5px 15px;
+    border-radius: 2px;
+    box-shadow: 0px 3px 9px #dddddd;
+    background-color: #f8f8f8;
+}
 /*right icons block*/
 
 .ricons {
@@ -140,3 +156,6 @@ img#last {
 	position: relative;
     top: 8px;
     border-radius: 20px;	
+}
+
+/*SEARCH RESULTS SECTION*/
