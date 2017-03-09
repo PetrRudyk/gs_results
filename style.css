@@ -3,11 +3,16 @@ body {
 	padding: 0;
 	font-family: Arial, sans-serif;
 }
+/*GOOGLE LOGO AT THE BOTTOM*/
+
 .imgform #img img {
     width: 130px;
     height: 53px;
 	margin: 18px 0px 0px 9px;
 }
+
+/*SEARCH FORM*/
+
 .imgform div {
 	display: inline-block;
 }
@@ -17,8 +22,8 @@ form input {
     border: 1px solid #dddddd;
     border-radius: 2px;
     margin: 0 0 0 10px;
-    position: absolute;
-    top: 22px;
+    position: relative;
+    top: 35px;
     text-align: left;
     padding-left: 10px;
     font-size: 1em;
@@ -38,13 +43,68 @@ button {
     cursor: pointer;
     vertical-align: middle;
     position: absolute;
-    right: 615px;
-    top: 30px;
+	right: 15px;
+    top: 42px;
     padding: 5px 10px 5px 10px;
     border-width: 0;
     background-color: inherit;
 }
+
+/*NAVBAR BELOW THE SEARCH FORM*/
+
+.navbar {
+	position: relative;
+    top: -90px;
+    left: 145px;
+    display: block;
+    max-width: 620px;
+}
+.navbar a {
+	text-decoration: none;
+	color: #4c4a4a;
+	font-size: 0.8em;
+}
+.navbar a:hover {
+	color: black;
+}
+.navbar ul {
+	margin: 0;
+	padding: 0;
+}
+.navbar ul li {
+	display: inline-block;
+	margin-left: 15px;
+}
+.lnav {
+	float: left;
+    position: relative;
+    top: 65px;
+    margin: 0;
+    padding: 0;
+    margin-left: -8px;
+}
+.rnav {
+	float: right;
+    position: relative;
+    top: 65px;
+    margin-right: 25px;
+}
+.lnav li, .rnav li {
+	height: 30px;
+    padding: 0;
+    width: 50px;
+    text-align: center;
+}
+.lnav #active {
+	border-bottom: 3px solid #4285f4;
+    font-weight: bold;
+}
+.lnav #active a {
+	color: #4285f4;
+}
+
 /*right icons block*/
+
 .ricons {
 	position: absolute;
     right: 20px;
