@@ -160,9 +160,31 @@ img#last {
 
 /*SEARCH RESULTS SECTION*/
 .main {
- 	padding-top: 15px;
+ 	padding-top: 20px;
     max-width: 600px;
     margin-left: 170px;
     font-size: 0.9em;
 
+}
+#nor {
+	font-size: 0.9em;
+    color: #777;
+}
+.ptitle a {
+	text-decoration: none;
+	font-size: 18px;
+}
+.ptitle a:hover {
+	text-decoration: underline;
+}
+span.ads {
+	font-size: 0.9em;
+    border: 1px solid #006621;
+    color: #006621;
+    border-radius: 3px;
+    padding: 0px 2px;
+	margin-right: 3px;
+}
+.link {
+	color: #006621;
 }
