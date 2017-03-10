@@ -159,3 +159,10 @@ img#last {
 }
 
 /*SEARCH RESULTS SECTION*/
+.main {
+ 	padding-top: 15px;
+    max-width: 600px;
+    margin-left: 170px;
+    font-size: 0.9em;
+
+}
