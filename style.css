@@ -166,6 +166,17 @@ img#last {
     font-size: 0.9em;
 
 }
+/*attempt to sizing divs*/
+.main div {
+	margin: 0 0 15px 0;
+}
+.main p {
+	margin: 0;
+}
+.main div .ptitle {
+	margin: 0;
+}
+/*end section*/
 #nor {
 	font-size: 0.9em;
     color: #777;
