@@ -172,9 +172,14 @@ img#last {
 }
 .main p {
 	margin: 0;
+	color: #545454;
+	font-size: small;
 }
 .main div .ptitle {
 	margin: 0;
+}
+div .link {
+	margin-bottom: 4px;
 }
 /*end section*/
 #nor {
@@ -196,6 +201,33 @@ span.ads {
     padding: 0px 2px;
 	margin-right: 3px;
 }
-.link {
+.link p {
 	color: #006621;
+	font-size: 1em;
 }
+.date {
+	color: #828282;
+}
+.phone {
+	color: #545454;
+	padding-left: 5px;
+}
+/*last ad at the bottom of search results, list*/
+.description ul li {
+	display: inline-block;
+	padding-right: 7px;
+}
+.description ul {
+	padding: 0;
+	margin: 4px 0 0 0;
+}
+.description ul li a {
+	text-decoration: none;
+}
+.description ul li a:hover {
+	text-decoration: underline;
+}
+#thead {
+	font-size: 1.3em;
+	color: #272727;
+}	
